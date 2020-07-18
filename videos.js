@@ -15,7 +15,7 @@ if(process.argv[2]){
     videos.reverse();
     processVideo()
 }else{
-    console.log("é necessario criar um diretorio")
+    console.log("é necessario criar um diretorio no nivel superior")
 }
 
 function resize(video, quality){
